@@ -18,7 +18,7 @@
                 </span></h1>
               </div>
               <div class="flex justify-between gap-5">
-                  <button class="bg-blue-800 px-2 text-white rounded-xl">Back To Desk</button>
+                  <button id="desk" class="bg-blue-800 px-2 text-white rounded-xl">Back To Desk</button>
               </div>
             </nav>
         </header>
@@ -57,5 +57,14 @@
             <p class="ml-3 px-2">-To add elements we can use push and unshift<br>-To remove elements we can use pop and shift<br>-To create elements we can use .createElement</p>
         </div>
      </section>
+    
+ <script src="js/new.js"></script>
+
+<script>   
+document.getElementById('desk').addEventListener('click',function()
+{
+    window.location.href="/index.html";
+});
+</script>
 </body>
 </html>
