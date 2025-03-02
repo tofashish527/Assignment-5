@@ -32,7 +32,7 @@ function getTodayDate() {
 // div.innerHTML = `<p>You have completed the task <strong>${title}</strong> at ${new Date().toLocaleTimeString()}</p>`;
 // console.log(div.innerHTML);
 // activity.appendChild(div);
-
+// }
 
 
 

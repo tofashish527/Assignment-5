@@ -20,4 +20,3 @@ document.getElementById('date').innerText=TodayDate;
 
 // console.log(div.innerHTML);
 // activity.appendChild(div);
-
