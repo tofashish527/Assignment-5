@@ -26,35 +26,36 @@
 
     <h1 class="text-center text-2xl font-bold mb-4 mt-4">Blogs</h1>
 
+     <!-- Q&A -->
      <section class="flex flex-col gap-5">
-        <div class=" bg-white w-320 h-24 ml-32 pt-3 text-justify">
+        <div class=" bg-white w-320 h-24 ml-32 pt-3 rounded-lg text-justify">
             <h1 class="ml-4">Question-1: What are the different ways to select an element in the DOM?</h1>
             <hr class="border-dashed text-gray-200 mt-2 mb-2"></hr>
             <p class="ml-3 px-2">To select an element in the DOM we can use getElementById, getElementsByClassName, getElementsByTagName, querySelector, querySelectorAll.</p>
         </div>
 
-        <div class=" bg-white w-320 h-36 ml-32 pt-3 text-justify">
+        <div class=" bg-white w-320 h-36 ml-32 pt-3 rounded-lg text-justify">
             <h1 class="ml-4">Question-2: What is the difference between innerHTML, innerText, and textContent ?  </h1>
             <hr class="border-dashed text-gray-200 mt-2 mb-2"></hr>
             <p class="ml-3 px-2">-innerHTML can read both the HTML markup and the text content of an element.<br>-innerText can read the content of an element and it returns the text exactly it displays.<br>-textContent only deals with the raw text and it's not respnsible for styles.</p>
         </div>
 
-        <div class=" bg-white w-320 h-30 ml-32 pt-3 text-justify">
+        <div class=" bg-white w-320 h-30 ml-32 pt-3 rounded-lg text-justify">
             <h1 class="ml-4">Question-3: What is event delegation in the DOM?</h1>
             <hr class="border-dashed text-gray-200 mt-2 mb-2"></hr>
             <p class="ml-3 px-2">It's a technique where we can connect a single event listener to a parent element, letting it to handle events triggered on its child elements, rather than adding separate listeners to each child element.</p>
         </div>
 
-        <div class=" bg-white w-320 h-28 ml-32 pt-3 text-justify">
+        <div class=" bg-white w-320 h-28 ml-32 pt-3 rounded-lg text-justify">
             <h1 class="ml-4">Question-4: What is event bubbling in the DOM?</h1>
             <hr class="border-dashed text-gray-200 mt-2 mb-2"></hr>
             <p class="ml-3 px-2">When an event occurs on an element, it triggers not only on that element but also propagates upwards through the DOM hierarchy, triggering event handlers on its parent elements until it reaches the document's root.</p>
         </div>
 
-        <div class=" bg-white w-320 h-32 ml-32 pt-3 text-justify">
+        <div class=" bg-white w-320 h-40 ml-32 pt-3 rounded-lg text-justify">
             <h1 class="ml-4">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
             <hr class="border-dashed text-gray-200 mt-2 mb-2"></hr>
-            <p class="ml-3 px-2">-To add elements we can use push and unshift<br>-To remove elements we can use pop and shift<br>-To create elements we can use .createElement</p>
+            <p class="ml-3 px-2">-To add elements we can use append() or appendChild() <br>-To remove elements we can use remove() and removeChild()<br>-To create elements we can use document.createElement()<br>-In array we can use push,pop,shift,unshift,slice etc. to add or remove element from an array.</p>
         </div>
      </section>
     
