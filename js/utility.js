@@ -19,6 +19,10 @@ function getTodayDate() {
     return `${day} ${month} ${date}  ${year}`;
 }
 
+function handleToggle(id, status)
+{
+    document.getElementById(id).style.display=status;
+}
 
 
 
